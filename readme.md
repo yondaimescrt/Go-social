@@ -21,7 +21,6 @@ This repo is a social networking platform built with Go. It allows users to regi
 ### Prerequisites
 
 - **Go (>=1.20)** – [Install Go](https://golang.org/dl/)
-- **Docker & Docker Compose** – [Install Docker](https://www.docker.com/)
 - **SendGrid API Key** – [Create a SendGrid account](https://sendgrid.com/)
 
 ---
@@ -49,10 +48,6 @@ This repo is a social networking platform built with Go. It allows users to regi
    ```
 
 3. **Start PostgreSQL Database**
-
-   ```bash
-   docker-compose up -d
-   ```
 
 - **Install Go Dependencies**: Run `go mod tidy` to install and clean up dependencies.
 - **Run** `go install github.com/air-verse/air@latest` for live reloading(optional)
