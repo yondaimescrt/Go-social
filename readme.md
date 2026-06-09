@@ -1,6 +1,6 @@
-# Go-Social
+# Technical Assessment
 
-**Go-Social** is a social networking platform built with Go. It allows users to register, create posts, follow/unfollow other users, comment on posts, and manage user roles. The project includes features like user authentication, email invitations, and role-based access control. PostgreSQL is used as the database, and SendGrid is integrated for sending email notifications.
+This repo is a social networking platform built with Go. It allows users to register, create posts, follow/unfollow other users, comment on posts, and manage user roles. The project includes features like user authentication, email invitations, and role-based access control. PostgreSQL is used as the database, and SendGrid is integrated for sending email notifications.
 
 ---
 
@@ -30,7 +30,7 @@
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/satyamkale27/Go-social.git
+   git clone https://github.com/palat-resto/technical-assessment.git
    cd Go-social
    ```
 
@@ -151,8 +151,3 @@
         - `search`: Search by title or content
 
 ---
-
-
-## 🧠 Conclusion
-
-Through this project, I learned how to build a backend using Go and explored Go concepts in depth. I applied these concepts to create APIs and implement the repository pattern for clean and maintainable code. I also gained hands-on experience with PostgreSQL and database migrations. Throughout development, I wrote SQL queries, debugged various issues, and dealt with complex database errors — especially the tricky ones that occur when migrations or queries fail. This project was a valuable learning experience that strengthened my understanding of backend development in Go.
